@@ -1,2 +1,18 @@
 @charset "UTF-8";
 /* 回答はここから */
+.text-align_box{
+  width: 200px;
+  background-color: #fff;
+  padding: 20px 0px;
+}
+
+.text-align_content{
+  text-align: center;
+}
+
+.text-align_text{
+  font-size: 16px;
+  padding: 10px;
+  background-color: #a4b3e9;
+  display: inline-block;
+}
