@@ -1,5 +1,7 @@
 @charset "UTF-8";
 /* 回答はここから */
+
+/* Q1-1 text-align */
 .text-align_box{
   width: 200px;
   background-color: #fff;
@@ -16,3 +18,45 @@
   background-color: #a4b3e9;
   display: inline-block;
 }
+
+/* Q1-1 margin */
+.margin_box{
+  width: 200px;
+  background-color: #fff;
+  padding: 20px 0px;
+  text-align: center;
+}
+
+.margin_text{
+  font-size: 16px;
+  padding: 10px;
+  width: 90px;
+  margin: 0 auto;
+  background-color: #a4b3e9;
+  display: inline-block;
+}
+
+/* Q1-2 table */
+.table_outer{
+  display: table;
+}
+
+.table_box{
+  width: 250px;
+  height: 150px;
+  font-size: 16px;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.table_text{
+  display: inline-block;
+  background-color: #fff;
+  padding: 10px;
+}
+
+/* Q1-2 flex */
+
+
+/* Q1-2 position */
