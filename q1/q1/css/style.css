@@ -57,6 +57,41 @@
 }
 
 /* Q1-2 flex */
+.flex_box{
+  width: 250px;
+  height: 150px;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.flex_text{
+  display: inline-block;
+  background-color: #fff;
+  padding: 10px;
+}
 
 /* Q1-2 position */
+.position_container{
+  position: relative;
+  display: inline-block;
+  width: 250px;
+  height: 150px;
+  font-size: 16px;
+  margin: 0 auto;
+  background-color: #fff;
+  vertical-align: top;
+}
+
+.position_text{
+  /* display: inline-block; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* -webkit-transform: translate(-50%, -50%); */
+  /* -ms-transform: translate(-50%, -50%); */
+  background-color: #a4b3e9;
+  padding: 10px;
+}
