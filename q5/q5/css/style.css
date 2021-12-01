@@ -27,3 +27,43 @@
   display: flex;
   flex-direction: column-reverse;
 }
+
+.layout_not_wrap{
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.layout_wrap{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.layout_wrap_reverse{
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+
+.layout_horizontal_start{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.layout_horizontal_end{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.layout_horizontal_center{
+  display: flex;
+  justify-content: center;
+}
+
+.layout_horizontal_space_between{
+  display: flex;
+  justify-content: space-between;
+}
+
+.layout_horizontal_space_around{
+  display: flex;
+  justify-content: space-around;
+}
